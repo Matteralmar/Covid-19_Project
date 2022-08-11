@@ -1,0 +1,37 @@
+
+
+#name_total {
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-align: center;
+  color: #1c261a;
+}
+
+#total {
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: #8ACA2B;
+  text-align: center;
+}
+
+
+@media screen and (min-width:480px){
+  aside {
+    width: 100%;
+  }
+
+  #name_total {
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1c261a;
+  }
+
+  #total {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #8ACA2B;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,29 @@
+textarea{
+  resize: none;
+}
+button[type="submit"]{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 12px 50px;
+  font-size: 24px;
+  border-radius: 20px;
+  font-family: 'Montserrat', serif;
+  background: #34495e;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+  background-color: #2980b9;
+}
+
+aside {
+  flex-basis: 25%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: auto 0;
+  border-radius: 5px;
+}
