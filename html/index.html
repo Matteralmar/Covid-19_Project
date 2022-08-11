@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- This is student project of CZU students -->
+  <meta charset="UTF-8">
+  <meta property="og:title" content="COVID-19 News Portal" />
+  <meta property="og:description" content="This is a website about COVID news" />
+  <title>COVID-19 News Portal</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header>
+    <div class="headSection">
+      <h1>COVID-19 News 🦠</h1>
+      <form id="form" role="search">
+        <input type="search" id="query" name="q"
+           placeholder="Search..."
+           aria-label="Search through site content">
+        <a href="search.html" id= "find"><button type="button"><p id='sbtn'>🔍</p></button></a>
+      </form>
+    </div>
+    <nav>
+      <ul>
+        <li id="selected"><a href="index.html" itemprop="url">🏠 Main</a></li>
+        <li><a href="news.html" itemprop="url">📰 News</a></li>
+        <li><a href="statistics.html" itemprop="url">📊 Statistics</a></li>
+        <li><a href="about.html" itemprop="url">👥 About us</a></li>
+        <li><a href="update.html" itemprop="url">🌍 Report an Update</a></li>
+      </ul>
+    </nav>
+    <marquee behavior="scroll" direction="left" scrollamount="4">Czechia 🇨🇿 : 1,816,161 cases,	+5,736 new cases;  Ukraine 🇺🇦 : 3,075,433 cases, +17,419 new cases.</marquee>
+  </header>
+  <main>
+    <div class="container">
+      <div class="main_page">
+        <div class="total">
+          <p id="name_total">Total COVID cases in the word:</p>
+          <marquee direction="up" height="50rem" behaviour="sliding"scrollamount="2" id="total">489999999</marquee>
+        </div>
+        <aside><img src="images/global-dashboard.png" alt="covid map"></aside>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="contacts">
+        <p>Phone number: <a href="#"><span itemprop="telephone">+1234567890</span></a></p>
+        <p>Email: <a href="covid-19newsportal@gmail.com"><span itemprop="email">covid-19newsportal@gmail.com</span></a></p>
+        <p>Chatbot: <a href="#"><span itemprop="Chatbot">Telegram</span></a></p>
+      </div>
+      <div class="links">
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="https://www.facebook.com">Facebook</a></p>
+        <p><a href="https://www.instagram.com">Instagram</a></p>
+        <p>This is student project of CZU students</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
