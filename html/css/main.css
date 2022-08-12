@@ -282,7 +282,9 @@
 }
 
 
-
+.world {
+  margin-right: 10px
+}
 
 .world, .fresh-news {
   flex-basis: 45%;
